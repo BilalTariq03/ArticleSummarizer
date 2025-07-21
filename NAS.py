@@ -48,7 +48,7 @@ def summarize():
   
 
 root = tk.Tk()
-root.title =("News Summarizer")
+root.title("News Summarizer")
 root.geometry('1200x600')
 
 tlabel =tk.Label(root, text="Title")
@@ -86,7 +86,7 @@ sentiment = tk.Text(root, height=1, width=140)
 sentiment.config(state="disabled", bg='#dddddd')
 sentiment.pack()
 
-ulabel =tk.Label(root, text="TiURLtle")
+ulabel =tk.Label(root, text="URL")
 ulabel.pack()
 
 utext = tk.Text(root, height=1, width=140)
